@@ -1,0 +1,65 @@
+body {
+	min-height: 1500px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h2 {
+	margin-left: 50px;
+	font-size: 30pt;
+}
+section {
+	/*font-family: "Open Sans", arial, "Apple SD Gothic Neo", "Noto Sans CJK KR", 본고딕, "KoPubDotum Medium", 나눔바른고딕, 나눔고딕, NanumGothic, 맑은고딕, "Malgun Gothic", sans-serif;*/
+	line-height: 1.5;
+	font-size: 0.9rem;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+.paragraph {
+	overflow: hidden;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.left_paragraph{
+	width: 400px;
+	text-align: justify;
+	float: left;
+	margin-left: 3%;
+	word-wrap: break-word;
+}
+.right_paragraph{
+	width: 400px;
+	text-align: justify;
+	float: right;
+	margin-left: 3%;
+	margin-right: 3%;
+	word-wrap: break-word;
+}
+.fullimg {
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 800px;
+	height: 450px;
+}
+img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 300px;
+}
+input {
+	width: 100px;
+	height: 50px;
+}
+h3 {
+	font-size: 20pt;
+}
+h3,ul {
+	margin-left: 30px;
+}
+form {
+	float: right;
+	margin-bottom: 50px;
+}

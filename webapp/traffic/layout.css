@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+
+ li{
+	text-decoration-line: none;
+	display:inline;
+	line-height: 100px;
+	margin-right: 130px;
+	margin-left:130px;
+	padding:0;
+	font-family: "Nanum Pen Script", verdana, sans-serif;
+}
+
+ul{
+	 	background-color: skyblue;
+	 	text-align:center;
+	 	padding:0 auto;
+	 	margin:0 auto;
+	 }
+
+
+
+body{
+	margin:0 auto;
+	padding: 0 auto;
+}
+a{
+	font-weight:bold;
+	font-color:#A690AF;
+	font-size:30pt;
+	text-decoration:none;
+	text-decoration-line: none;
+	color : black;
+}
+
+button{
+	float:right;
+}

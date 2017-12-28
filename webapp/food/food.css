@@ -1,0 +1,131 @@
+@font-face{
+	font-family: "font1";
+	src: url(../font/font1.ttf) format('truetype');
+}
+body
+{
+	margin-top: 0;
+}
+table
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	width: 1000px;
+	text-align: center;
+	border-spacing: 50px 50px;
+}
+td
+{
+	font-family: font1;
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	border: 3px solid black;
+	position: relative;
+	font-size: 50px;
+}
+tr:nth-child(1) td:nth-child(1)::before
+{
+	content: "";
+	background-image: url(icon_images/a10.jpg); 
+	background-size: 420px 310px;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+	position: absolute;
+}
+tr:nth-child(1) td:nth-child(2)::before
+{
+	content: "";
+	background-image: url(icon_images/a2.png); 
+	background-size: 420px 310px;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+	position: absolute;
+}
+tr:nth-child(2) td:nth-child(1)::before
+{
+	content: "";
+	background-image: url(icon_images/a3.png); 
+	background-size: 420px 310px;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+	position: absolute;
+}
+tr:nth-child(2) td:nth-child(2)::before
+{
+	content: "";
+	background-image: url(icon_images/a11.png); 
+	background-size: 420px 310px;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+	position: absolute;
+}
+tr:nth-child(3) td:nth-child(1)::before
+{
+	content: "";
+	background-image: url(icon_images/a12.png); 
+	background-size: 420px 310px;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+	position: absolute;
+}
+tr:nth-child(3) td:nth-child(2)::before
+{
+	content: "";
+	background-image: url(icon_images/a6.png); 
+	background-size: 420px 310px;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+	position: absolute;
+}
+tr:nth-child(4) td:nth-child(1)::before
+{
+	content: "";
+	background-image: url(icon_images/a13.jpg); 
+	background-size: 420px 310px;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+	position: absolute;
+}
+tr:nth-child(4) td:nth-child(2)::before
+{
+	content: "";
+	background-image: url(icon_images/a10.jpg); 
+	background-size: 420px 310px;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+	position: absolute;
+}

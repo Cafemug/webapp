@@ -1,0 +1,15 @@
+<table>
+	<tr>
+		<td onclick="parent.contents('sight/contentsample.php_경복궁')">경복궁</td>
+		<td onclick="parent.contents('sight/dongdaemoon.php_동대문')">동대문</td>
+		<td onclick="parent.contents('sight/kwanghwa.php_광화문광장')">광화문광장</td>
+		<td onclick="parent.contents('sight/bosingak.php_보신각')">보신각</td>
+	</tr>
+	<tr>
+		<td onclick="parent.contents('sight/jongmyo.php_종묘')">종묘</td>
+		<td onclick="parent.contents('sight/changduck.php_창덕궁')">창덕궁</td>
+		<td onclick="parent.contents('sight/chunggye.php_청계천')">청계천</td>
+		<td onclick="parent.contents('sight/insa.php_인사동')">인사동</td>
+	</tr>
+</table>
+<br>

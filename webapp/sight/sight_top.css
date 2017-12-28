@@ -1,0 +1,39 @@
+@font-face{
+	font-family: "font1";
+	src: url(../font/font1.ttf) format('truetype');
+}
+table
+{
+	background-color: white;
+	margin-left: 20px;
+	margin-top: 25px;
+	margin-right: 10px;
+    margin-bottom: 20px;
+	width: 400px;
+	border-spacing: 0 0;
+    float:left;
+    text-align: center;
+
+}
+table:after{
+    content: "";
+	display: inline;
+	
+}
+td
+{
+	font-family: font1;
+	width: 500px;
+	height: 120px;
+	border: 3px solid rgb(100,100,200);
+	border-collapse: collapse;
+	border-spacing: 0 0;
+	position: relative;
+	font-size: 50px;
+	color: rgba(100,100,250,0.5);
+	border-radius: 20px;
+	background: linear-gradient(to bottom,rgba(150,150,250,0.2), rgba(255,255,255,0), rgba(150,150,250,0.2));	
+}
+body{
+    height: 700px;
+}

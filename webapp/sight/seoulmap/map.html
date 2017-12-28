@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>map</title>
+	<style type="text/css">
+		img{
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	</style>
+</head>
+<body>
+<script type="text/javascript">
+	function over(){
+		document.getElementById('select').style.display='inline';
+	}
+	function left(){
+		document.getElementById('select').style.display='none';
+	}
+</script>
+<img src="seoulmap.png" usemap="#map">
+<div>
+<img id="select" src="seoulmap_.png" style="z-index: 1; display: none">
+</div>
+<map name="map" id="map">
+<area shape="rect" coords="23,117,64,140" onmouseenter="over()" onmouseout="left()">
+</map>
+</body>
+</html>

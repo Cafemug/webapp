@@ -1,0 +1,10 @@
+﻿There are many subway lines in Korea ranging from 1 to 9, including Airport Railroad, Gyeonggi Central Station, Shin Bundang and Bundang.
+Among them, I will use only the 1st to 9th lines and the airport railway, so I will explain only this part.
+All lines are color-coded. Line 1 is dark blue Line 2 is green Line 3 is orange Line 4 is light blue
+Line 5 is purple. Line 6 is brown. Line 7 is dark green. Line 8 is pink. Line 9 is light brown.
+Each station has its own number, the first number represents the line, and the last number represents the station order.
+For example, 205 is the 5th stop on Route 2.
+Also, there are unattended vending machines at all stations, which is difficult to use because foreigners are new to this.
+So I prepared a video below to get a card and how to get a deposit refund.
+If you look at the images, you will be able to access them more easily.
+

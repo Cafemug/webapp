@@ -1,0 +1,30 @@
+#googlemap {
+	height: 500px;
+	width: 500px;
+	float: right;
+	margin-top: 20px;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+article {
+	margin-right: auto;
+	margin-left: auto;
+	width: 700px;
+	overflow: hidden;
+}
+section {
+	margin-right: auto;
+	margin-left: auto;
+	width: 700px;
+	overflow: hidden;
+}
+
+#attractions {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}

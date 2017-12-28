@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+body{
+	margin: 25px;
+	min-height: 600px;
+}
+
+#header{
+	font-family: "Jeju Hallasan", sans-serif;
+	font-size:40pt;
+	border-bottom : 2px solid gray;
+	text-align:center;
+	/*background-image:url("cse326bg.jpg");
+	background-position : top left;
+	background-repeat: no-repeat;*/
+	height: 100px;
+}
+
+aside{
+	float:left;
+	padding-bottom:45px;
+	border-right : 2px solid gray;
+	border-bottom : 2px solid gray;
+	font-family : "Hanna", sans-serif;
+	font-size : 20pt;
+}
+
+aside ul{
+	list-style-type: none;
+}
+
+aside li{
+	margin-top:100px;
+	margin-bottom:100px;
+	margin-left:20px;
+	margin-right:50px;
+	border-bottom-color: gray;
+	text-align:center;
+}
+
+a{
+	text-decoration:none;
+	text-decoration-line: none;
+	color : black;
+}
+
+#text{
+	float : left;
+	font-family: "Nanum Myeongjo", sans-serif;
+	font-size : 18pt;
+}
+
+#picture1 img{
+	margin-top: 50px;
+	margin-left: 200px;
+	width: 600px;
+	height: 300px;
+}
+
+#picture2 img{
+	margin-top: 50px;
+	width: 1000px;
+	height: 700px;
+}

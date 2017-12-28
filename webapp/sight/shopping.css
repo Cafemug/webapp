@@ -1,0 +1,45 @@
+@font-face{
+	font-family: "font2";
+	src: url(../font/font2.ttf) format('truetype');
+}
+ul{
+	padding-left: 0;
+	list-style: none;
+}
+ul div{
+	padding-top: 40px;
+	font-family: font2;
+	font-size: 20px;
+	border: 2px solid black;
+	position: relative;
+	width: 150px;
+	height: 75px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+ul li:nth-child(1) div::before
+{
+	content: "";
+	background-image: url(icon_images/b7.png); 
+	background-size: 150px 120px;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+	position: absolute;
+}
+ul li:nth-child(2) div::before
+{
+	content: "";
+	background-image: url(icon_images/b12.png); 
+	background-size: 150px 120px;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+	position: absolute;
+}

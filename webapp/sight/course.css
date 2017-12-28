@@ -1,0 +1,49 @@
+@font-face{
+	font-family: "font2";
+	src: url(../font/font2.ttf) format('truetype');
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 100px;
+}
+td{
+	font-family: font2;
+	padding: 50px;
+	text-align: center;
+	width: 600px;
+	height: 200px;
+	font-size: 50px;
+	border: 5px black solid;
+	border-radius: 20px;
+	position: relative;
+}
+tr{
+	margin-bottom: 50px;
+}
+tr:nth-child(1) td:nth-child(1)::before
+{
+	content: "";
+	background-image: url(icon_images/b9.jpg); 
+	background-size: 700px 300px;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+	position: absolute;
+}
+tr:nth-child(2) td:nth-child(1)::before
+{
+	content: "";
+	background-image: url(icon_images/b10.jpg); 
+	background-size: 700px 300px;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+	position: absolute;
+}

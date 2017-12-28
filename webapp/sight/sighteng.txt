@@ -1,0 +1,15 @@
+<table>
+	<tr>
+		<td onclick="parent.contents('sight/contentsampleeng.php_Gyeongbokgung')">Gyeongbokgung</td>
+		<td onclick="parent.contents('sight/contentsampleen.php_Dongdaemun')">Dongdaemun</td>
+		<td onclick="parent.contents('sight/contentsampleen.php_Gwanghwamun-Square')">Gwanghwamun-Square</td>
+		<td onclick="parent.contents('sight/contentsampleen.php_Bosin-gak')">Bosin-gak</td>
+	</tr>
+	<tr>
+		<td onclick="parent.contents('sight/contentsampleen.php_Jongmyo')">Jongmyo</td>
+		<td onclick="parent.contents('sight/contentsampleen.php_Changdeokgung')">Changdeokgung</td>
+		<td onclick="parent.contents('sight/contentsampleen.php_Cheonggyecheon')">Cheonggyecheon</td>
+		<td onclick="parent.contents('sight/contentsampleen.php_Insa-dong')">Insa-dong</td>
+	</tr>
+</table>
+<br>
